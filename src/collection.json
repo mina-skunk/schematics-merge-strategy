@@ -1,0 +1,15 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "boilerplate": {
+      "description": "see https://github.com/angular/devkit/issues/745",
+      "factory": "./boilerplate#index"
+    },
+    "function": {
+      "description": "see https://stackoverflow.com/questions/48957132/how-to-overwrite-file-with-angular-schematics",
+      "aliases": [ "fn" ],
+      "factory": "./function",
+      "schema": "./function/schema.json"
+    }
+  }
+}
